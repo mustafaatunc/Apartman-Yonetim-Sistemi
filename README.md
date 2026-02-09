@@ -90,7 +90,7 @@ Kurulum sonrası tam yetkili yönetici hesabı:
 ---
 ## 👨‍💻 Geliştirici
 **Mustafa Tunç**
-📧 **E-posta:** [mstftnc421@gmail.com](mailto:mstftnc421@gmail.com)
+- 📧 **E-posta:** [mstftnc421@gmail.com](mailto:mstftnc421@gmail.com)
 
 
 
