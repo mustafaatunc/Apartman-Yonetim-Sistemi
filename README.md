@@ -41,6 +41,12 @@ Bu proje, **güvenli kodlama prensipleri** (SQL Injection koruması), **rol bazl
 | :---: | :---: |
 |<img width="1640" height="676" alt="3" src="https://github.com/user-attachments/assets/d72ed5f6-7dbc-4245-ac18-4e36af16dc5e" /> | <img width="1251" height="586" alt="4" src="https://github.com/user-attachments/assets/57a50931-061e-4a73-a371-8731539eb9a8" /> |
 
+| Apartman Yönetim | Kategori İşlemleri | Kayıtlar |
+| :---: | :---: | :---: |
+|<img width="1072" height="697" alt="5" src="https://github.com/user-attachments/assets/a769ef6e-16a3-40fb-b976-5bd72d287310" /> |<img width="1157" height="666" alt="6" src="https://github.com/user-attachments/assets/3b00e4eb-6b25-4b29-9bff-e67d3051e10d" /> | <img width="972" height="567" alt="7" src="https://github.com/user-attachments/assets/029cb5f5-6f61-4647-8b03-928381312ad0" /> |
+
+
+
 
  
 
