@@ -74,13 +74,23 @@ public SqlConnection baglan()
     baglanti.Open();
     return baglanti;
 }
+```
+
 ### 4. Çalıştırma
-"Start" tuşuna basarak çalıştırın.
+- Projeyi Visual Studio'da açın.
+- **Start** tuşuna basarak çalıştırın.
+
+---
 
 ## 🔑 Giriş Bilgileri
-**Admin:**
-Kullanıcı Adı: admin
-Şifre: 1234
+Kurulum sonrası tam yetkili yönetici hesabı:
+| Rol | Kullanıcı Adı (TC) | Şifre |
+| :--- | :--- | :--- |
+| **Admin** | `admin` | `1234` |
+
+---
+## 👨‍💻 Geliştirici
+**Mustafa Tunç**
 
 
 
