@@ -1,0 +1,8 @@
+# Gereksiz Klasörler
+bin/
+obj/
+.vs/
+packages/
+*.user
+*.suo
+*.pdb

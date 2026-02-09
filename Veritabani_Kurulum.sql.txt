@@ -1,0 +1,101 @@
+USE Apartman_Yonetim;
+GO
+
+-- 1. Borç Tipi Tablosu (Kategori İşlemleri için)
+IF NOT EXISTS (SELECT * FROM sys.tables WHERE name = 'borc_tipi')
+BEGIN
+    CREATE TABLE borc_tipi(
+        id int IDENTITY(1,1) PRIMARY KEY,
+        tip nvarchar(50),
+        aciklama nvarchar(150)
+    );
+END
+
+-- 2. Log Tablosu (Loglar için)
+IF NOT EXISTS (SELECT * FROM sys.tables WHERE name = 'log')
+BEGIN
+    CREATE TABLE log(
+        id int IDENTITY(1,1) PRIMARY KEY,
+        islem nvarchar(50),
+        ip nvarchar(50),
+        tc nvarchar(20),
+        aciklama nvarchar(250),
+        tarih datetime
+    );
+END
+
+-- 3. Apartman İşlemleri Tablosu
+IF NOT EXISTS (SELECT * FROM sys.tables WHERE name = 'apartman_islemleri')
+BEGIN
+    CREATE TABLE apartman_islemleri(
+        id int IDENTITY(1,1) PRIMARY KEY,
+        apartman_adi nvarchar(50),
+        blok nvarchar(10),
+        adres nvarchar(250),
+        daire_sayisi int,
+        yonetici_id int
+    );
+END
+
+-- 4. Daire Tablosu
+IF NOT EXISTS (SELECT * FROM sys.tables WHERE name = 'daire')
+BEGIN
+    CREATE TABLE daire(
+        id int IDENTITY(1,1) PRIMARY KEY,
+        daire_no nvarchar(10),
+        tipi nvarchar(20),
+        kira_ucreti decimal(18,2),
+        aidat_ucreti decimal(18,2),
+        apartman_id int
+    );
+END
+
+-- 5. Gelirler Tablosu
+IF NOT EXISTS (SELECT * FROM sys.tables WHERE name = 'gelirler')
+BEGIN
+    CREATE TABLE gelirler(
+        id int IDENTITY(1,1) PRIMARY KEY,
+        kategori nvarchar(50),
+        tutar decimal(18,2),
+        tarih datetime,
+        aciklama nvarchar(250)
+    );
+END
+
+-- 6. Giderler Tablosu
+IF NOT EXISTS (SELECT * FROM sys.tables WHERE name = 'giderler')
+BEGIN
+    CREATE TABLE giderler(
+        id int IDENTITY(1,1) PRIMARY KEY,
+        kategori nvarchar(50),
+        tutar decimal(18,2),
+        aciklama nvarchar(250),
+        tarih datetime
+    );
+END
+
+-- 7. Borçlar Tablosu
+IF NOT EXISTS (SELECT * FROM sys.tables WHERE name = 'borclar')
+BEGIN
+    CREATE TABLE borclar(
+        id int IDENTITY(1,1) PRIMARY KEY,
+        kategori nvarchar(50),
+        tc_no nvarchar(20),
+        tutar decimal(18,2),
+        aciklama nvarchar(250),
+        tarih datetime,
+        kullanici nvarchar(20) -- İlişkili kullanıcının TC'si
+    );
+END
+
+-- 8. Ödenenler Tablosu
+IF NOT EXISTS (SELECT * FROM sys.tables WHERE name = 'odenen')
+BEGIN
+    CREATE TABLE odenen(
+        id int IDENTITY(1,1) PRIMARY KEY,
+        odeyen nvarchar(20),
+        miktar decimal(18,2),
+        odeme_turu nvarchar(50),
+        tarih datetime
+    );
+END
