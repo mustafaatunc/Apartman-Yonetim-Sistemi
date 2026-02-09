@@ -47,12 +47,6 @@ Bu proje, **güvenli kodlama prensipleri** (SQL Injection koruması), **rol bazl
 
 
 
-
- 
-
-
-
-
 ---
 
 ## 🛠️ Kurulum ve Çalıştırma
@@ -80,3 +74,14 @@ public SqlConnection baglan()
     baglanti.Open();
     return baglanti;
 }
+### 4. Çalıştırma
+"Start" tuşuna basarak çalıştırın.
+
+## 🔑 Giriş Bilgileri
+**Admin:**
+Kullanıcı Adı: admin
+Şifre: 1234
+
+
+
+
