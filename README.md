@@ -35,13 +35,13 @@ Bu proje, **güvenli kodlama prensipleri** (SQL Injection koruması), **rol bazl
 
 | Giriş Ekranı | Ana Panel |
 | :---: | :---: |
-| ![Giris](https://via.placeholder.com/400x250?text=Giris+Ekrani+Resmi+Buraya) | ![Panel](https://via.placeholder.com/400x250?text=Ana+Panel+Resmi+Buraya) |
+| ![Giris](<img width="1217" height="713" alt="Image" src="https://github.com/user-attachments/assets/3d0bff13-d4a9-448f-a82b-5cecb8bb2cbd" />) | ![Panel](<img width="1915" height="1016" alt="Image" src="https://github.com/user-attachments/assets/e61b6f31-6b0f-4b67-834c-11232ea8fe4c" />) |
 
 | Borç İşlemleri | Gider Tablosu |
 | :---: | :---: |
 | ![Borc](https://via.placeholder.com/400x250?text=Borc+Ekrani+Resmi+Buraya) | ![Gider](https://via.placeholder.com/400x250?text=Gider+Tablosu+Resmi+Buraya) |
 
-*(Not: Ekran görüntülerini projenize ekleyip linkleri buraya yapıştırabilirsiniz.)*
+
 
 ---
 
