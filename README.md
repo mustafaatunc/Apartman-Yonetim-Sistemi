@@ -75,7 +75,6 @@ public SqlConnection baglan()
     return baglanti;
 }
 ```
-
 ### 4. Çalıştırma
 - Projeyi Visual Studio'da açın.
 - **Start** tuşuna basarak çalıştırın.
