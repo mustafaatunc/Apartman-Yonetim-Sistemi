@@ -37,9 +37,13 @@ Bu proje, **güvenli kodlama prensipleri** (SQL Injection koruması), **rol bazl
 | :---: | :---: |
 |<img width="1217" height="713" alt="1" src="https://github.com/user-attachments/assets/2b06c6c5-a288-4d7d-a2e5-75a1fa8f64eb" /> | <img width="1915" height="1016" alt="2" src="https://github.com/user-attachments/assets/ca083e3e-24bf-4874-8b57-3d20859d43cb" /> |
 
-| Borç İşlemleri | Gider Tablosu |
+| Yönetici Paneli | Apartman İşlemleri |
 | :---: | :---: |
-| ![Borc](https://via.placeholder.com/400x250?text=Borc+Ekrani+Resmi+Buraya) | ![Gider](https://via.placeholder.com/400x250?text=Gider+Tablosu+Resmi+Buraya) |
+|<img width="1640" height="676" alt="3" src="https://github.com/user-attachments/assets/d72ed5f6-7dbc-4245-ac18-4e36af16dc5e" /> | <img width="1251" height="586" alt="4" src="https://github.com/user-attachments/assets/57a50931-061e-4a73-a371-8731539eb9a8" /> |
+
+
+ 
+
 
 
 
