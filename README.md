@@ -92,3 +92,7 @@ Fully authorized admin account after installation:
 ## 👨‍💻 Developer
 - **Mustafa Tunç**
 - 📧 **Email:** [mstftnc421@gmail.com](mailto:mstftnc421@gmail.com)
+
+© Copyright & License
+© 2026 Mustafa Tunç. All Rights Reserved.
+This repository is strictly for portfolio and academic demonstration purposes. No part of this code may be reproduced, distributed, modified, or used for any commercial or personal projects without explicit written permission from the author.
